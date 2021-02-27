@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <string name="main_title">How was your visit?</string>
+    <string name="main_sub">Give us feedback</string>
+    <string name="question">How likely are you to recommend <br/>
+        Coffee House to a friend? </string>
+</resources>
