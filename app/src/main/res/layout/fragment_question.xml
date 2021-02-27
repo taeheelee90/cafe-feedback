@@ -38,7 +38,12 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp"
+            android:text="@string/selection_1"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:gravity="center"
+            />
 
         <TextView
             android:id="@+id/selection_2"
@@ -46,21 +51,33 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp"
+            android:text="@string/selection_2"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:gravity="center"/>
         <TextView
             android:id="@+id/selection_3"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp"
+            android:text="@string/selection_3"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:gravity="center"/>
         <TextView
             android:id="@+id/selection_4"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
+            android:layout_marginBottom="5dp"
+            android:text="@string/selection_4"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:gravity="center"/>
         <TextView
             android:id="@+id/selection_5"
             android:layout_width="match_parent"
@@ -68,17 +85,28 @@
             android:layout_weight="1"
             tools:ignore="DuplicateIds"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
-
-
+            android:layout_marginBottom="5dp"
+            android:text="@string/selection_5"
+            android:fontFamily="sans-serif-black"
+            android:textSize="15dp"
+            android:gravity="center"/>
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/left_arrow"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="761dp" />
+        app:layout_constraintGuide_percent="0.9" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,11 @@
     <string name="main_sub">Give us feedback</string>
     <string name="question">How likely are you to recommend <br/>
         Coffee House to a friend? </string>
+    <string name="selection_1">1. Extremely likely</string>
+    <string name="selection_2">2. Very likely</string>
+    <string name="selection_3">3. Somewhat likely</string>
+    <string name="selection_4">4. Not likely</string>
+    <string name="selection_5">5. Not at all likely</string>
+    <string name="result_title">Thank you!</string>
+
 </resources>
