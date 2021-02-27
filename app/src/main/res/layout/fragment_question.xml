@@ -25,10 +25,51 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/question"
         android:weightSum="5"
         tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/selection_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/selection_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/selection_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/selection_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/selection_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="DuplicateIds"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
 
     </LinearLayout>
 
@@ -37,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_begin="761dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
