@@ -8,24 +8,24 @@
     tools:context=".fragment.ResultFragment">
 
     <TextView
-        android:id="@+id/main_title"
+        android:id="@+id/result_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="@string/result_title"
         android:textColor="@color/darkGray"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/main_sub_title"
+        app:layout_constraintBottom_toTopOf="@+id/result_contents"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/main_sub_title"
+        android:id="@+id/result_contents"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
+        android:fontFamily="sans-serif-black"
         android:text="We will get back to this text later"
         android:textSize="20dp"
         android:textColor="@color/darkGray"

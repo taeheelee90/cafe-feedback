@@ -45,7 +45,8 @@
             android:layout_marginBottom="5dp"
             android:text="@string/selection_1"
             android:fontFamily="sans-serif-black"
-            android:textSize="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/darkGray"
             android:gravity="center"
             />
 
@@ -58,7 +59,8 @@
             android:layout_marginBottom="5dp"
             android:text="@string/selection_2"
             android:fontFamily="sans-serif-black"
-            android:textSize="15dp"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
             android:gravity="center"/>
         <TextView
             android:id="@+id/selection_3"
@@ -69,7 +71,8 @@
             android:layout_marginBottom="5dp"
             android:text="@string/selection_3"
             android:fontFamily="sans-serif-black"
-            android:textSize="15dp"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
             android:gravity="center"/>
         <TextView
             android:id="@+id/selection_4"
@@ -80,7 +83,8 @@
             android:layout_marginBottom="5dp"
             android:text="@string/selection_4"
             android:fontFamily="sans-serif-black"
-            android:textSize="15dp"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
             android:gravity="center"/>
         <TextView
             android:id="@+id/selection_5"
@@ -92,7 +96,8 @@
             android:layout_marginBottom="5dp"
             android:text="@string/selection_5"
             android:fontFamily="sans-serif-black"
-            android:textSize="15dp"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
             android:gravity="center"/>
     </LinearLayout>
 
