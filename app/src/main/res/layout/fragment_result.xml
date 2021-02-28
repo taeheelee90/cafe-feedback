@@ -28,6 +28,7 @@
         android:fontFamily="sans-serif-black"
         android:text="We will get back to this text later"
         android:textSize="20dp"
+        android:gravity="center"
         android:textColor="@color/darkGray"
         android:layout_marginBottom="196dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_close"
