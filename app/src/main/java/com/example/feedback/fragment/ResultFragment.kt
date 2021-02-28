@@ -47,19 +47,19 @@ class ResultFragment : Fragment() {
     fun setResult(selection : Int){
         when(selection){
             1 -> {
-                result_contents.text = "We are happy to hear your feedback."
+                result_contents.text = "We are happy to hear it."
             }
             2 -> {
-                result_contents.text = "We are happy to hear your feedback."
+                result_contents.text = "We are happy to hear it."
             }
             3-> {
                 result_contents.text ="We hope to see you soon again. "
             }
             4 -> {
-                result_contents.text="We will improve our services accordingly."
+                result_contents.text="We will improve our services."
             }
             5 -> {
-                result_contents.text="We will improve our services accordingly."
+                result_contents.text="We will improve our services."
             }
         }
     }
