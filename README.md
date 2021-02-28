@@ -1,14 +1,12 @@
 # cafe-feedback
 * Application is for customer satisfaction survey. 
 * It includes one question and shows different final messages depedning on the customer's satisfaction level. 
+* 1 Activity with 3 Fragments
+* Jetpack navigation library
 
 # Getting Started
 This project uses the Gradle build system. 
 To build this project, use the gradlew build command or use "Import Project" in Android Studio.
-
-# What was used
-* 1 Activity with 3 Fragments
-* Jetpack navigation library
 
 # Screenshots
 ![main](https://user-images.githubusercontent.com/69889362/109418209-c974d380-79cf-11eb-96c1-4ccb0885b856.PNG)
